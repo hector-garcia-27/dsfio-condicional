@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 40px;
 }
 
 .seccion1 > h1{
@@ -16,4 +17,50 @@
 .seccion1 > img {
     width: 400px;
     border-radius: 10px;
+}
+
+.seccion2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.seccion2 > .stickers{
+    display: flex;
+    align-items: end;
+}
+
+.seccion2  > .stickers > .luffy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seccion2  > .stickers > .luffy > img{
+    width: 150px;
+    padding: 10px;
+}
+
+.seccion2  > .stickers > .zoro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seccion2  > .stickers > .zoro > img{
+    width: 300px;
+}
+
+.seccion2  > .stickers >  .sanji{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion2  > .stickers > .sanji > img{
+    width: 200px;
+    padding: 10px;  
+}
+
+.seccion2 > .boton{
+    padding: 20px;
 }
