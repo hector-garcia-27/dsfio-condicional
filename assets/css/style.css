@@ -64,3 +64,31 @@
 .seccion2 > .boton{
     padding: 20px;
 }
+
+.seccion3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.seccion3 > h1{
+    padding: 25px;
+}
+
+.seccion3 > .contenedor{
+    padding: 25px;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.seccion3 > .contenedor > .botones{
+    padding: 10px 0 10px 0;
+    display: flex;
+}
+
